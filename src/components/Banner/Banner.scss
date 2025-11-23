@@ -1,0 +1,27 @@
+.banner {
+  position: center;
+  max-width: 100%;
+
+  .banner-img {
+    width: 100%;   
+    height: auto;  
+    display: block;
+  }
+
+}
+
+/*  MOBILE */
+@media (max-width: 768px) {
+  .banner-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 32px;
+  }
+}
