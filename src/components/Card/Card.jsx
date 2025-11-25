@@ -13,13 +13,17 @@ const cards = [
 ];
 
 const Card = () => (
-  <section className="cards" id="services">
-    {cards.map((card, index) => (
-      <div className="card" key={index}>
-        <img src={card.image} alt={`Card ${index + 1}`} />
-        <h1>{card.title}</h1>
-      </div>
-    ))}
+  <section className="cards-section">
+    <h1 className="cards-title">LOOKS E DICAS DE MAQUIAGEM</h1>
+
+    <div className="cards">
+      {cards.map((card, index) => (
+        <div className="card" key={index}>
+          <img src={card.image} alt={`Card ${index + 1}`} />
+          <h2>{card.title}</h2>
+        </div>
+      ))}
+    </div>
   </section>
 );
 

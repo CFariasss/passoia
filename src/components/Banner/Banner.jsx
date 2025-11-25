@@ -1,11 +1,12 @@
-import "./Banner.scss";
-import banner from "../../assets/Banner.png";
+import "./banner.scss";
+import banner from "../../assets/banner.png";
 
 function Banner() {
   return (
-    <div className="banner">
-      <img src={banner} alt="Banner" className="banner-img" />
-    </div>
+    <section className="banner-section">
+      <img className="banner-img" src={banner} alt="Banner" />
+    </section>
   );
 }
+
 export default Banner;

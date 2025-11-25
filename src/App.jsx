@@ -1,8 +1,7 @@
-import React from "react";
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
 import Card from "./components/Card/Card";
-// import Footer from "./components/Footer/Footer"; // <--- COMENTE
+import Lancamento from "./components/Lancamento/Lancamento.jsx";
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <Header />
       <Banner />
       <Card />
-      {/* <Footer /> */}  {/* COMENTE */}
+      <Lancamento />
     </>
   );
 }
